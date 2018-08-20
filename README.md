@@ -22,7 +22,7 @@ components
 
 We've covered the features of class components thoroughly through the previous
 lessons. To be clear, you can write _all of your components_ as class
-components. Evan with a complex app with many components, this will work just
+components. Even with a complex app with many components, this will work just
 fine.
 
 If you're not sure how complex a component will become while creating it, just
@@ -190,7 +190,7 @@ like NavigationContainer, deal with managing state and class methods.
 Keeping all the more complex logic in one place makes it easier to follow the
 flow of information. It also keeps many components simpler and free of clutter.
 
-Container components, having to deal with state, are usually class components
+Container components, having to deal with state, are usually class components.
 Presentational components are most often functional components as they don't need to
 contain custom methods, relying mainly on props.
 
@@ -205,7 +205,7 @@ components. Class components are versatile and fully featured components. They
 can be anything we want them to be. Functional components exchange the class
 component's bells and whistles for simplicity and a small performance boost.
 
-#### Resources (if applicable)
+#### Resources
 
 - [Presentational vs Container Components by Dan Abramov][pvc]
 - [Dan Abramov's follow up on Twitter][tweet]
